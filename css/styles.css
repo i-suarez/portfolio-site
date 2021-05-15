@@ -68,19 +68,19 @@ button {
   /* overwrites browser defaults and resets the border */
   border: none;
   display: inline-block;
-  
+
   /* takes the font from the outer container */
   font-family: inherit;
-  
+
   /* styles the button */
   background-color: var(--primary-color);
   color: var(--white);
   text-decoration: none;
-  
+
   /* adds spacing to the button */
   padding: 10px;
   border-radius: 3px;
-  
+
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
@@ -89,7 +89,7 @@ button {
 
 .button:hover,
 .button:focus,
-button:hover, 
+button:hover,
 button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
@@ -221,7 +221,7 @@ button:focus {
 	border-bottom-width: 1px;
 }
 
-.about, 
+.about,
 .berlin {
 	text-align: center;
 }
